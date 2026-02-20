@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gradient-to-r from-slate-500 to-yellow-100 text-white;
+  background-attachment: fixed;
+  background-size: cover;
+}
