@@ -5,3 +5,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+.signature-font {
+  font-family: 'Great Vibes', cursive;
+}
+
+
