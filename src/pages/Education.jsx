@@ -51,7 +51,7 @@ export default function Education() {
           </div>
           <div>
             <p className="mt-4 mb-2 text-sm text-gray-400">
-              Focused on software engineering, database systems,cloud computing and modern web development.
+              Focused on C++,Java,Microprocessor Programming,Web development,Data Structures,OOP,Analogue and Digital Control,Software Engineering, Database Systems,Cloud Computing,Embedded Systems,Digital Image Processing and Project Management.
             </p>
             <p className="text-sm mb-2 text-gray-400"><span className="font-bold">Capstone project :</span> Leave management system.</p>
             <p className="text-xs text-orange-400"><span className="font-bold">Tech Stack :</span> Java (programming), MS Access (database), Eclipse IDE (GUI builder)</p>
@@ -79,7 +79,7 @@ export default function Education() {
             </div>
           </div>
           <p className="mt-4 mb-2 text-sm text-gray-400">
-            Designed normalized databases and crafted responsive wireframes to ensure scalability and usability.
+            Designed normalized databases and crafted responsive wireframes to ensure scalability and usability.Built secure CRUD operations and integrated dynamic components with Livewire.
           </p>
           <p className="text-sm mb-1 text-gray-400"><span className="font-bold">Project :</span> Student Management System</p>
           <p className="text-xs mb-3 text-orange-400"><span className="font-bold">Tech Stack :</span> HTML5,CSS3,PHP,Javascript,Jquery,MySQL</p>
@@ -151,7 +151,7 @@ export default function Education() {
             </div>
           </div>
           <p className="mt-4 mb-2 text-sm text-gray-400">
-            Specialized in database optimization, third‑party service integration, and modern DevOps practices with Docker and CI/CD.
+            Specialized in database optimization, third‑party service integration, and modern DevOps practices with Docker and CI/CD, applying these skills across diverse systems.
           </p>
           <div>
             <p className="text-sm mb-1 text-gray-400"><span className="font-bold">Project :</span> Invoice System</p>

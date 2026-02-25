@@ -3,7 +3,7 @@ import Hero from '../pages/Hero'
 import About from '../pages/About'
 import Education from '../pages/Education'
 import Skills from '../pages/Skills'
-import Experiences from '../pages/Experiences'
+import Projects from '../pages/Projects'
 import Contact from '../pages/Contact'
 import Footer from './Footer'
 
@@ -15,7 +15,7 @@ export default function Layout() {
       <section id="about" ><About /></section>
       <section id="education" ><Education /></section>
       <section id="skills"><Skills /></section>
-      <section id="experiences"><Experiences /></section>
+      <section id="projects"><Projects /></section>
       <section id="contact"><Contact /></section>
       <Footer />
     </div>
