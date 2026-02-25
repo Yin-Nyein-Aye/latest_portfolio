@@ -18,8 +18,6 @@ export default function Hero() {
                         justify-start sm:justify-center items-center 
                         bg-gradient-to-r from-slate-500 to-yellow-100 text-white px-4 pt-24"
     >
-
-
       <img
         src={profile}
         alt="Profile"
@@ -27,7 +25,6 @@ export default function Hero() {
                    rounded-full mb-6 object-cover 
                    shadow-[0_0_40px_rgba(255,255,255,0.8)]"
       />
-
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -36,7 +33,6 @@ export default function Hero() {
       >
         Hi, I’m <span className="text-yellow-100">Yin Nyein Aye</span>
       </motion.h1>
-
       <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-olive-700 mt-4 text-center">
         <Typewriter
           words={roles}
@@ -47,7 +43,6 @@ export default function Hero() {
           delaySpeed={2000}
         />
       </h1>
-
       <motion.p
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -56,14 +51,14 @@ export default function Hero() {
       >
         Dedicated and detail‑oriented full‑stack developer with a passion for solving real‑world problems. Skilled in modern frontend frameworks and robust backend technologies, I deliver seamless, responsive, and scalable digital experiences.
       </motion.p>
-
-      <motion.button
+      <motion.a
+        href="#projects"
         whileHover={{ scale: 1.1 }}
-        className="mt-3 px-2 sm:px-6 py-1 sm:py-3 bg-white text-olive-700
+        className="mt-5 px-3 sm:px-3 py-1 sm:py-1 bg-olive-700
                    rounded-full shadow-lg font-semibold text-sm sm:text-base"
       >
         View My Work
-      </motion.button>
+      </motion.a>
     </section>
   );
 }
