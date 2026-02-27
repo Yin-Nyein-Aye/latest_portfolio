@@ -1,6 +1,6 @@
 import SocialLink from '../components/SocialLink';
 import { motion } from "framer-motion";
-import profile from "../assets/yna1.jpg";
+import profile from "../assets/girl_coding.png";
 import data from '../data/data.json'
 
 export default function Profile() {
