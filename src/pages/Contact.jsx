@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import TitleComponent from '../components/Title';
+import TitleComponent from "../components/Title";
 
 export default function Contact() {
   const [status, setStatus] = useState("");
@@ -12,7 +12,7 @@ export default function Contact() {
       method: "POST",
       body: formData,
       headers: {
-        Accept: "application/json"
+        Accept: "application/json",
       },
     });
 
@@ -33,16 +33,50 @@ export default function Contact() {
         Your vision, my code —
         <span className="block sm:inline"> let’s make it real.</span>
       </p>
-      <form className="shadow-lg rounded-lg p-8 w-full max-w-md space-y-4 text-black" onSubmit={handleSubmit}>
-        <input type="text" name="name" placeholder="emily" className="w-full border rounded px-4 py-2 outline-0" required />
-        <input type="email" name="email" placeholder="emily@gmail.com" className="w-full border rounded px-4 py-2 outline-0" required />
-        <input type="text" name="subject" placeholder="Subject (Virtual Interview,Offer)" className="w-full border rounded px-4 py-2 outline-0" required />
-        <textarea placeholder="Your Message" name="message" className="w-full border rounded px-4 py-2 h-32 outline-0" required />
-        <button className="w-full bg-olive-800 text-white py-2 rounded hover:bg-orange-600 hover:text-black transition" type="submit" >
+      <form
+        className="shadow-[inset_0_0_18px_black] rounded-xl p-10 w-full max-w-md space-y-4 text-black mt-15"
+        onSubmit={handleSubmit}
+      >
+        <input
+          type="text"
+          name="name"
+          placeholder="emily"
+          className="w-full border rounded px-4 py-2 outline-0 border-0 shadow-[0_0_10px_gray]"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="emily@gmail.com"
+          className="w-full border rounded px-4 py-2 outline-0 border-0 shadow-[0_0_10px_gray]"
+          required
+        />
+        <input
+          type="text"
+          name="subject"
+          placeholder="Subject (Virtual Interview,Offer)"
+          className="w-full border rounded px-4 py-2 outline-0 border-0 shadow-[0_0_10px_gray]"
+          required
+        />
+        <textarea
+          placeholder="Your Message"
+          name="message"
+          className="w-full border rounded px-4 py-2 h-32 outline-0 border-0 shadow-[0_0_10px_gray]"
+          required
+        />
+        <button
+          className="w-full bg-olive-800 text-white py-2 rounded hover:bg-orange-600 hover:text-black transition
+          shadow-[0_0_18px_black] hover:shadow-[0_0_18px_black]"
+          type="submit"
+        >
           Send Message
         </button>
-        {status && <p className="italic text-center text-olive-700 font-bold">{status}</p>}
+        {status && (
+          <p className="italic text-center text-olive-700 font-bold">
+            {status}
+          </p>
+        )}
       </form>
-    </section >
+    </section>
   );
 }

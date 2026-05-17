@@ -4,11 +4,11 @@ body {
   @apply bg-gradient-to-r from-slate-500 to-yellow-100 text-white;
   background-attachment: fixed;
   background-size: cover;
-  overflow-x : hidden;
+  overflow-x: hidden;
 }
 
 .signature-font {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
 }
 
 .swiper-slide {
@@ -20,4 +20,3 @@ body {
   position: relative;
   z-index: 10; /* ensures link is above slide shadows */
 }
-

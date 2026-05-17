@@ -13,16 +13,19 @@ export default function SkillCard({ skill }) {
                 flex flex-col items-center 
                 bg-olive-900 rounded-2xl py-2 px-12
                 hover:scale-105 transition
-                lg:w-1/6 w-1/3"
+                lg:w-1/6 w-1/3 shadow-[0_0_20px_black]"
     >
-      <span className="text-3xl"><Icon size={30} color={skill.color} /></span>
+      <span className="text-3xl">
+        <Icon size={30} color={skill.color} />
+      </span>
       <p className="mt-2">{skill.name}</p>
       <div className="flex items-center gap-1 mt-2">
         {[...Array(5)].map((_, index) => (
           <span
             key={index}
-            className={`text-lg ${index < skill.level ? "text-yellow-500" : "text-gray-500"
-              }`}
+            className={`text-lg ${
+              index < skill.level ? "text-yellow-500" : "text-gray-500"
+            }`}
           >
             ★
           </span>
@@ -33,5 +36,5 @@ export default function SkillCard({ skill }) {
         {skill.levelName} • {skill.exp_years}+ years
       </p>
     </motion.div>
-  )
+  );
 }

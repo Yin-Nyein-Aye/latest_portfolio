@@ -3,7 +3,8 @@
     {
       "title": "Behind the Code",
       "description": "Raised in Myanmar, I discovered my passion for technology while studying Information Technology at Technological University Taunggyi.",
-      "details": " From May 2019 to April 2024, I worked as a Full-Stack Web Developer at ITVisionHub. Since May 2024, I’ve been contributing to MYSOL, a Japan-based company, where I continue to build user-friendly and high-performance applications."
+      "first_career": "Full-Stack Web Developer at ITVisionHub.",
+      "second_career": "Contributing to MYSQL (Japan-based company), building user-friendly applications."
     },
     {
       "achievement": [
@@ -27,20 +28,32 @@
         {
           "num": "6+",
           "label": "Years of Experience",
-          "color": "bg-yellow-100"
+          "color": "slate"
         },
-        { "num": "10+", "label": "Projects", "color": "bg-orange-100" },
-        { "num": "16+", "label": "Technologies", "color": "bg-slate-100" },
+        {
+          "num": "10+",
+          "label": "Projects",
+          "color": "amber"
+        },
+        {
+          "num": "16+",
+          "label": "Technologies",
+          "color": "stone"
+        },
         {
           "num": "1+",
           "label": "Countries Worked With",
-          "color": "bg-purple-100"
+          "color": "brown"
         },
-        { "num": "100%", "label": "Success Rate", "color": "bg-pink-100" },
+        {
+          "num": "100%",
+          "label": "Success Rate",
+          "color": "zinc"
+        },
         {
           "num": "100%",
           "label": "Work Responsibility",
-          "color": "bg-green-100"
+          "color": "coffee"
         }
       ]
     },
